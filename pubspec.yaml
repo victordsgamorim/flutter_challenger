@@ -1,0 +1,71 @@
+name: flutter_challenger
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  get_it: ^7.2.0
+  flutter_bloc: ^8.0.1
+  dartz: ^0.10.1
+  equatable: ^2.0.3
+  go_router: ^4.2.7
+  connectivity_plus: ^2.3.6+1
+  http: ^0.13.4
+  shimmer: ^2.0.0
+  font_awesome_flutter: ^10.2.1
+  cached_network_image: ^3.2.2
+  intl: ^0.17.0
+#  flutter_launcher_icons: ^0.10.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.2.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: Outfit-Black
+      fonts:
+        - asset: assets/fonts/Outfit-Black.ttf
+    - family: Outfit-Bold
+      fonts:
+        - asset: assets/fonts/Outfit-Black.ttf
+    - family: Outfit-ExtraBold
+      fonts:
+        - asset: assets/fonts/Outfit-ExtraBold.ttf
+    - family: Outfit-ExtraLight
+      fonts:
+        - asset: assets/fonts/Outfit-ExtraLight.ttf
+    - family: Outfit-Light
+      fonts:
+        - asset: assets/fonts/Outfit-Light.ttf
+    - family: Outfit-Medium
+      fonts:
+        - asset: assets/fonts/Outfit-Medium.ttf
+    - family: Outfit-Regular
+      fonts:
+        - asset: assets/fonts/Outfit-Regular.ttf
+    - family: Outfit-SemiBold
+      fonts:
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+    - family: Outfit-Thin
+      fonts:
+        - asset: assets/fonts/Outfit-Thin.ttf
